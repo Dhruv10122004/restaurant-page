@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+#header {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: burlywood;
+}
+
+#content {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+button#home, button#menu, button#about {
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: burlywood;
+}
+
+button#home:hover, button#menu:hover, button#about:hover {
+    background-color: white;
+}
+
+#logo {
+    height: 100px;
+    width: 150px;
+}
+
+#seating {
+    height: 500px;
+    width: 500px;
+}
+
+#menuImg {
+    width: 700px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#details {
+    font-weight: bold;
+    font-size: 75px;
+}
